@@ -3,13 +3,17 @@
       1.td*4 = 4 ta td banai dibe
       2.border-collapse: collapse; = table border fillup hoye jabe.
       3.colspan attribute = tr merge kore dey.
+      4.Ek page theke arek page e jawa = navigate
+      li*4>a = list er moddhe <a> soho chole ashbe 4 ta.
 -->
 <html>
   <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>table</title>
+<link rel="stylesheet" href="Styles/nav.css" />
     <style>
+    
      table{
       border-collapse: collapse;
     }
@@ -17,12 +21,25 @@
         border: 1px solid black;
         padding: 5px 10px;
       }
+      
+      
     </style>
-  
   </head>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="Blogs.html">Blog</a></li>
+        <li><a href="Form.html">Form</a></li>
+        <li><a href="Video.html">Video</a></li>
+        <li><a href="Table.html">Table</a></li>
+      </ul>
+    </nav>
+    
+  </header>
   <body>
+    <main>
     <h1>Html Table</h1>
-    <table>
+          <table>
       <caption>Employee Salary Data</caption>
       <thead>
         <th>No.</th>
@@ -72,5 +89,6 @@
       <li>Table head cell:th</li>
       <li>caption</li>
     </ul>
+    </main>
   </body>
 </html>
