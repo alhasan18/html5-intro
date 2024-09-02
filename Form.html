@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<!-- 
+       1.<fieldset></fieldset> = ekta field create korlam.
+       2.<legend></legend> = fieldset er vitore thake.Fieldset er uporer likha
+       boshabo.
+       3.Name attribute e name same dile jekono ekta choose kora jay.
+       4.<<textarea name="" id= rows="8" cols="40"></textarea> = ekta area create korbe jar moddhe tumi chaile likhte paro
+       kono kichu.
+       5.input type:reset means reset button.
+       6.input type:submit means submit button.
+-->
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jamal er Ma er Pithaghor</title>
+    <style>
+      body{
+        background-color: gray;
+      }
+      label{
+        display: block;
+        margin-bottom: 10px;
+      }
+    </style>
+    
+  </head>
+  <body>
+    <header>
+      
+    </header>
+    
+    <main>
+      <section>
+        <h2>Please fillup the form</h2>
+        <form>
+         <label for="name">Your Name:
+           <input id="name" placeholder="Your Name"/>
+        </label>
+        <label for="email">Your Email:
+        <input id="email" type="email" placeholder="Your Email" />
+          </label>
+          <label for="phone">Your Mobile number:
+            <input type="number" id="phone" placeholder="Enter your Mobile No." />
+          </label>
+          
+          <fieldset>
+            <legend>Choose Your Pitha
+            </legend>
+              <label for="chitoi">
+                <input type="radio" name="pitha" id="chitoi">chitoi
+              </label>
+              <label for="vapa">
+                <input type="radio" name="pitha" id="vapa">vapa
+              </label>
+              <label for="puri">
+                <input type="radio" name="pitha" id="puri">puri
+              </label>
+          </fieldset>
+          
+          <fieldset>
+            <legend>Pick one or more Vorta</legend>
+            <label for="sorisha">
+              <input type="checkbox" name="vorta" id="sorisha" value="" />Sorisha
+            </label>
+            <label for="shutki">
+              <input type="checkbox" name="vorta" id="shutki" value="" />Shutki
+            </label>
+            <label for="Morich">
+              <input type="checkbox" name="vorta" id="Morich" value="" />Morich
+            </label>
+          </fieldset>
+          <fieldset>
+            <legend>Special Instruction</legend>
+            <textarea name="" id= rows="8" cols="40"></textarea>
+          </fieldset>
+          <input type="reset" name="" id="" value="reset" />
+          <input type="submit" name="" id="" value="submit" />
+        </form>
+      </section>
+    </main>
+    
+    <footer>
+      
+    </footer>
+  </body>
+</html>

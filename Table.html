@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<!-- 
+      1.td*4 = 4 ta td banai dibe
+      2.border-collapse: collapse; = table border fillup hoye jabe.
+      3.colspan attribute = tr merge kore dey.
+-->
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table</title>
+    <style>
+     table{
+      border-collapse: collapse;
+    }
+      td{
+        border: 1px solid black;
+        padding: 5px 10px;
+      }
+    </style>
+  
+  </head>
+  <body>
+    <h1>Html Table</h1>
+    <table>
+      <caption>Employee Salary Data</caption>
+      <thead>
+        <th>No.</th>
+        <th>Name</th>
+        <th>Company</th>
+        <th>Salary</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Bill Gates</td>
+          <td>Microsoft</td>
+          <td>$1000</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Steve jobs</td>
+          <td>Apple</td>
+          <td>$1100</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Garry</td>
+          <td>Google</td>
+          <td>$1200</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>Mark zuku</td>
+          <td>Facebook</td>
+          <td>$1300</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="4">Total Employee:4</td>
+        </tr>
+      </tfoot>
+    </table>
+    <ul>
+      <li>Table:Table</li>
+      <li>Table Head:thead</li>
+      <li>Table Body:tbody</li>
+      <li>Table Footer:tfoot</li>
+      <li>Table Row:tr</li>
+      <li>Table Data or Table cell:td</li>
+      <li>Table head cell:th</li>
+      <li>caption</li>
+    </ul>
+  </body>
+</html>
