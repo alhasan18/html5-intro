@@ -12,3 +12,15 @@ nav ul li a{
 nav li:hover{
   color: lightgray;
 }
+
+/* nested menu styles */
+
+nav li .dropdown{
+  display: none;
+  position: absolute;
+  /* absolute means onno text gula shorbe na */
+  background-color: lightyellow;
+}
+nav li:hover> .dropdown{
+  display: block;
+}
