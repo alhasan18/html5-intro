@@ -24,3 +24,25 @@ img{
 p{
   display:block
 }
+
+/* table{
+  border-collapse: collapse;
+} */
+
+td,th,table{
+  border: 2px solid black;
+  
+  
+
+}
+td{
+  padding: 5px;
+  background-color: #e0ffe0;
+}
+th{
+  padding: 5px 0;
+  background-color: #2e8b57;
+}
+#h2{
+  text-align: center;
+}
